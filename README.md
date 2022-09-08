@@ -1,6 +1,6 @@
 # Temporalize tables for Sequelize
 
-(aka "Historical records")
+(aka "Historical records"). Was Cloned to support primary key option. 
 
 This package is a derivative of [sequelize-temporal](https://www.npmjs.com/package/sequelize-temporal), with some bug fixes and major changes merged in. The project is now a substantial divergence from [sequelize-temporal](https://www.npmjs.com/package/sequelize-temporal), so it is no longer interchangeable.
 

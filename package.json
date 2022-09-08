@@ -1,6 +1,6 @@
 {
   "name": "sequelize-historize",
-  "version": "4.2.2",
+  "version": "4.2.3",
   "description": "History tables for Sequelize with support with special primary keys",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
