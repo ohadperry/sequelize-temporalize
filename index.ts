@@ -9,7 +9,8 @@ const temporalizeDefaultOptions = {
   allowTransactions: true,
   logTransactionId: true,
   logEventId: true,
-  eventIdColumnName: 'eventId'
+  eventIdColumnName: 'eventId',
+  primaryKey: null,
 };
 
 export function Temporalize({
@@ -254,9 +255,12 @@ export function Temporalize({
   }
 
   const afterCreateHook = async function(obj, options) {
+    const where = {};
+    const primaryKeyName = temporalizeOptions.primaryKey || 'id';
+    where[primaryKeyName] = obj[primaryKeyName];
     return model
       .findOne({
-        where: { id: obj.id },
+        where: where,
         transaction: options.transaction,
         paranoid: false
       })
