@@ -1,7 +1,7 @@
 {
-  "name": "sequelize-temporalize",
+  "name": "sequelize-historize",
   "version": "4.2.0",
-  "description": "Temporal tables for Sequelize",
+  "description": "History tables for Sequelize with support with special primary keys",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "directories": {
@@ -24,7 +24,7 @@
     "paranoid",
     "historical"
   ],
-  "author": "James Jansson <do_not_send_email@email.info> (https://github.com/jamesajansson)",
+  "author": "Cloned from James Jansson <do_not_send_email@email.info> (https://github.com/jamesajansson)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/JamesJansson/sequelize-temporalize/issues"
