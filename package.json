@@ -1,6 +1,6 @@
 {
   "name": "sequelize-historize",
-  "version": "4.2.1",
+  "version": "4.2.2",
   "description": "History tables for Sequelize with support with special primary keys",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JamesJansson/sequelize-temporalize.git"
+    "url": "git+https://github.com/ohadperry/sequelize-temporalize.git"
   },
   "keywords": [
     "sequelize",
@@ -27,9 +27,9 @@
   "author": "Cloned from James Jansson <do_not_send_email@email.info> (https://github.com/jamesajansson)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JamesJansson/sequelize-temporalize/issues"
+    "url": "https://github.com/ohadperry/sequelize-temporalize/issues"
   },
-  "homepage": "https://github.com/JamesJansson/sequelize-temporalize#readme",
+  "homepage": "https://github.com/ohadperry/sequelize-temporalize#readme",
   "dependencies": {
     "@types/mocha": "^5.2.7",
     "lodash": "^4.17.11",
